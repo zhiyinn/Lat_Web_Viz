@@ -1,21 +1,26 @@
 h1{
     margin:48px;
     font: 48px;
+    text-align: center;
 }
 h2{
     margin:48px;
     font: 48px;
+    text-align: center;
 }
 p{
     margin:32px 32px;
 }
 img{
-    width: 335px;
-    height: 225px;
+    padding: 5px;
+    width: 255px;
+    height: 155px;
+    margin: 10px;
 }   
 #bigcloud, #humidity, #windspeed, #temp{
-    width: 600px;
-    height: 400px;
+    width: 500px;
+    height: 325px;
+    margin-bottom: 20px;
 }
 
 table {
@@ -23,7 +28,16 @@ table {
   }
  
   #comp_cloud, #comp_humid, #comp_temp, #comp_windspeed{
-    width: 600px;
-    height: 400px;
-
+    width: 500px;
+    height: 350px;
+    margin-bottom: 20px;
   }
+.container{
+    background-color:rgba(132, 210, 230, 0.25);
+}
+
+.activeImg{
+    padding: 5px;
+    border:solid;
+    border-color:blue;
+}
