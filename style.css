@@ -21,3 +21,9 @@ img{
 table {
     margin: 0px 50px;
   }
+ 
+  #comp_cloud, #comp_humid, #comp_temp, #comp_windspeed{
+    width: 600px;
+    height: 400px;
+
+  }
