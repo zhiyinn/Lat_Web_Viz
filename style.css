@@ -1,13 +1,14 @@
 h1{
-    margin:48px;
-    font: 48px;
-    text-align: center;
-}
+    color: rgb(20, 180, 164);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
 h2{
-    margin:48px;
-    font: 48px;
-    text-align: center;
-}
+    color: rgb(20, 180, 164);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
 p{
     margin:32px 32px;
 }
@@ -27,13 +28,8 @@ table {
     margin: 0px 50px;
   }
  
-  #comp_cloud, #comp_humid, #comp_temp, #comp_windspeed{
-    width: 500px;
-    height: 350px;
-    margin-bottom: 20px;
-  }
 .container{
-    background-color:rgba(132, 210, 230, 0.25);
+    background-color:rgba(243, 244, 245, 0.25);
 }
 
 .activeImg{
@@ -41,3 +37,12 @@ table {
     border:solid;
     border-color:blue;
 }
+
+@media (max-width: 700px) {
+    .navbar {
+        background-color: blue;
+    }
+    .navbar-brand div {
+        color: white;
+    }
+} 
